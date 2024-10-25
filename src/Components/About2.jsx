@@ -10,25 +10,24 @@ function About2() {
       <div className="expContainer">
         <div className="experance first">
           <div className="expContent">
-            <h5> MIS Rollout Officer</h5>
-            <p>
-              MMD(Ministry of Martyrs and Disabled Affairs | Kabul, Afghanistan)
-            </p>
+            <h5> Software Developer</h5>
+            <p>Binary Cosmo | Seattle, WA </p>
             <p>
               <ul>
                 <li>
-                  Created a new digital system for making payment via digital
-                  cards for the families of martyrs in Afghanistan.
+                  Developing dynamic web applications using latest technologies
+                  for NetRyde app.
                 </li>
 
                 <li>
-                  Worked with software development and testing team members to
-                  design and develop robust solutions to meet client
-                  requirements for functionality, scalability, and performance.
+                  Outline testing responsibilities, e.g. quality assurance,
+                  testing protocols, writing test cases, test execution.
                 </li>
+                <li>Administration of online booking of NetRyde app.</li>
+
                 <li>
-                  Updated old code bases to modern development standards,
-                  improving functionality.
+                  Marketing of products like NetRyde and social media
+                  management.
                 </li>
               </ul>
             </p>
@@ -38,34 +37,34 @@ function About2() {
             <div className="line"></div>
           </div>
           <div className="expDate">
-            <strong>10/2020 - 08/2021</strong>
+            <strong>9/2024 - Active</strong>
           </div>
         </div>
+
         <div className="experance second">
           <div className="expContent">
-            <h5>Human Resources Officer</h5>
-            <p>
-              IEC, Independent Election Commission of Afghanistan | Kabul,
-              Afghanistan
-            </p>
+            <h5>Front End Developer</h5>
+            <p>Ministry of Martyrs and Disabled Affairs - Kabul, Afghanistan</p>
             <p>
               <ul>
                 <li>
-                  Coordinated new hire onboarding, completing background checks
-                  and reference checks to complete screenings.
+                  Created a new digital system for making payment via digital
+                  cards for the families of martyrs in Afghanistan.
                 </li>
 
                 <li>
-                  Develop and prepare data collection forms for compiling the
-                  database as require.
+                  Developed user interfaces with modern JavaScript Frameworks
+                  HTML5, CSS3, which improved user satisfaction 31%.
                 </li>
                 <li>
-                  Plans database upgrades by maintaining , evaluating, and
-                  improving a transaction processing model.
+                  Designed and developed Web applications using JavaScript
+                  frameworks React.js to increase target audience engagement by
+                  15%.
                 </li>
                 <li>
-                  Assesses database performance by developing a protocol for
-                  measurement of results and identification of problem areas.
+                  Created accessible, responsive, and functional user interfaces
+                  to allow visitors on any device to have the same perfect user
+                  experience
                 </li>
               </ul>
             </p>
@@ -75,27 +74,33 @@ function About2() {
             <div className="line"></div>
           </div>
           <div className="expDate">
-            <strong> 03/2019 - 03/2020</strong>
+            <strong> 10/2020 - 08/2021</strong>
           </div>
         </div>
         <div className="experance third">
           <div className="expContent">
-            <h5>Data Entry Clerk</h5>
+            <h5>Web Developer</h5>
             <p>
               IEC, Independent Election Commission of Afghanistan | Kabul,
               Afghanistan
             </p>
             <p>
               <ul>
-                <li>Preparing and sorting documents for data entry.</li>
                 <li>
-                  Entering data into database software and checking to ensure
-                  the accuracy of The data that has been inputted.
+                  Resolved issues and escalated problems with knowledgeable
+                  support and quality service.
+                </li>
+
+                <li>
+                  Worked with software development and testing team members to
+                  design and develop robust solutions to meet client
+                  requirements for functionality, scalability, and performance
                 </li>
                 <li>
-                  Resolving discrepancies in information and obtaining further
-                  information for Incomplete documents.
+                  Updated old code bases to modern development standards,
+                  improving functionality.
                 </li>
+                <li>Regular back-up of the databases</li>
               </ul>
             </p>
           </div>
@@ -104,7 +109,7 @@ function About2() {
             <div className="line"></div>
           </div>
           <div className="expDate">
-            <strong>03/2018 - 03/2019</strong>
+            <strong> 03/2019 - 03/2020</strong>
           </div>
         </div>
         <div className="experance fourth">
