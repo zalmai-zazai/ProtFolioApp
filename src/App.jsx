@@ -29,7 +29,7 @@ function App() {
           <h2 className="projectTitle">My Projects</h2>
 
           <div className="projectsContainer" id="projects">
-            {data.apps.map((item) => {
+            {data.apps.map((item, index) => {
               return (
                 <>
                   {/* <Col key={item.name} md={6} lg={3}>
@@ -41,6 +41,7 @@ function App() {
                       />
                     </Col> */}
                   <CustomCard
+                    index={index}
                     name={item.name}
                     link={item.link}
                     avtar={item.avtar}

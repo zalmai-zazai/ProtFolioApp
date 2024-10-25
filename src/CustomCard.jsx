@@ -1,10 +1,11 @@
 import React from 'react';
 import { Card, Button } from 'react-bootstrap';
 
-const CustomCard = ({ name, link, description, avtar }) => {
+const CustomCard = ({ index, name, link, description, avtar }) => {
   return (
     <Card
       className="myCard"
+      key={index}
       style={{
         borderRadius: '90px 10px 90px 10px',
         width: '23rem',
