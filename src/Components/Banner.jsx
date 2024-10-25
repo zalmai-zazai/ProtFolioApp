@@ -4,6 +4,7 @@ import { SocialIcon } from 'react-social-icons';
 import { FaPhoneVolume } from 'react-icons/fa';
 import { FcGoogle } from 'react-icons/fc';
 import Typed from 'typed.js';
+import { Nav } from 'react-bootstrap';
 
 function Banner() {
   const el = React.useRef(null);
@@ -36,8 +37,18 @@ function Banner() {
           Paypal, Coinbase commerce payment gateway integrations too !
         </p>
         <div className="buttons">
-          <button className="resume">Download CV</button>
-          <button className="hire">Contact</button>
+          <button className="resume">
+            <a
+              href="/Zalma ZazaiResume.pdf"
+              download="Zalma ZazaiResume.pdf"
+              style={{ textDecoration: 'none', color: 'black' }}
+            >
+              Download CV
+            </a>
+          </button>
+          <button className="hire">
+            <Nav.Link href="#contact">Contact</Nav.Link>
+          </button>
         </div>
         <div className="bottomBanner">
           <div className="emailContact">

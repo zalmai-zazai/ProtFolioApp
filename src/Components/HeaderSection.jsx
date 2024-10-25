@@ -22,7 +22,7 @@ function HeaderSection() {
       </ul> */}
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand as={Link} to="/">
+          <Navbar.Brand as={Link} to="">
             ZZ-Protfolio
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />

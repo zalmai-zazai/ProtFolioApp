@@ -28,7 +28,7 @@ function App() {
           </div>
           <h2 className="projectTitle">My Projects</h2>
 
-          <div className="projectsContainer">
+          <div className="projectsContainer" id="projects">
             {data.apps.map((item) => {
               return (
                 <>

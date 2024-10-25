@@ -1,5 +1,6 @@
 import EcomerceAppPhoto from '../assets/EcomerceApp.jpg';
-import TravlBuddy from '../assets/Travalbuddy.jpg';
+import foodapp from '../assets/food.jpg';
+import SudsyCarwash from '../assets/sudsyCarwash.jpg';
 import NesApp from '../assets/newsApp.jpg';
 import CardGame from '../assets/CardGame.jpg';
 import currency from '../assets/currency.jpg';
@@ -12,18 +13,18 @@ const data = {
       description: 'ecommerce app allows users to shop online',
     },
     {
-      name: 'Traval Buddy',
-      link: 'https://q4qqoh.csb.app/#',
-      avtar: TravlBuddy,
+      name: 'Sudsy CarWash',
+      link: 'https://sudsaycarwash.netlify.app/',
+      avtar: SudsyCarwash,
       description:
-        ' exclusive travel app designed to let you find a travel buddy locally',
+        'A carwash project desgined for sudsy carwash located in Kent, WA',
     },
     {
-      name: 'Traval Buddy',
-      link: 'https://q4qqoh.csb.app/#',
-      avtar: TravlBuddy,
+      name: 'Food App',
+      link: 'https://myfoodresturant.netlify.app/',
+      avtar: foodapp,
       description:
-        ' exclusive travel app designed to let you find a travel buddy locally',
+        'Discover delicious dishes, The app combines convenience with taste, delivering a seamless experience for users to find and order their favorite meals',
     },
 
     {
