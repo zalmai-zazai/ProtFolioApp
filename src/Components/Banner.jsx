@@ -1,17 +1,17 @@
-import React from 'react';
-import bannerImg from '../assets/banner.jpg';
-import { SocialIcon } from 'react-social-icons';
-import { FaPhoneVolume } from 'react-icons/fa';
-import { FcGoogle } from 'react-icons/fc';
-import Typed from 'typed.js';
-import { Nav } from 'react-bootstrap';
+import React from "react";
+import bannerImg from "../assets/banner.jpg";
+import { SocialIcon } from "react-social-icons";
+import { FaPhoneVolume } from "react-icons/fa";
+import { FcGoogle } from "react-icons/fc";
+import Typed from "typed.js";
+import { Nav } from "react-bootstrap";
 
 function Banner() {
   const el = React.useRef(null);
 
   React.useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ['Full Stack Developer', 'Frontend Developer', 'UI Designer'],
+      strings: ["Full Stack Developer", "Frontend Developer", "UI Designer"],
       typeSpeed: 50,
     });
 
@@ -39,9 +39,9 @@ function Banner() {
         <div className="buttons">
           <button className="resume">
             <a
-              href="/Zalma ZazaiResume.pdf"
-              download="Zalma ZazaiResume.pdf"
-              style={{ textDecoration: 'none', color: 'black' }}
+              href="/Zalmai_Zazai_Resume.pdf"
+              download="Zalmai_Zazai_Resume.pdf"
+              style={{ textDecoration: "none", color: "black" }}
             >
               Download CV
             </a>
@@ -54,11 +54,11 @@ function Banner() {
           <div className="emailContact">
             <h5>
               <FcGoogle className="contact-icon ml-4" />
-              {'   '}
+              {"   "}
               Shahzalmai98@gmail.com
             </h5>
             <h5>
-              <FaPhoneVolume className="contact-icon ml-4" /> {'   '}
+              <FaPhoneVolume className="contact-icon ml-4" /> {"   "}
               (+1-206-670-6888)
             </h5>
           </div>
